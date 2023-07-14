@@ -1,4 +1,6 @@
+#include <stdlib.h>
 #include <time.h>
+
 /**
  * main - generate numbers to detect ve or -ve
  *
@@ -15,7 +17,7 @@ int main(void)
 	{
 		printf("%d is postive\n", n);
 	}
-	else if (n == 0)
+	else if (n < 0)
 	{
 		printf("%d is zero\n", n);
 	}
