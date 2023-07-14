@@ -1,29 +1,27 @@
 #include <stdlib.h>
 #include <time.h>
-
+/* more header goes there */
+#include <stdio.h>
+/* betty style doc for function main goes there */
 /**
- * main - generate numbers to detect ve or -ve
+ * main - main function
  *
- * Return: always be (0)
- *
+ * Return: Always (0)
  */
+
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
 	if (n > 0)
-	{
-		printf("%d is postive\n", n);
-	}
-	else if (n < 0)
-	{
-		printf("%d is zero\n", n);
-	}
+		printf("%d is postive", n);
+	else if (n == 0)
+		printf("%d is zero", n);
 	else
-	{
-		printf("%d is negative\n", n);
-	}
+		printf("%d is negative", n);
+	printf("\n");
 	return (0);
 }
