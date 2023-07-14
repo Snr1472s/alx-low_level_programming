@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <unistdio.h>
-
+#include <unistd.h>
 /**
  * main - prints without printf and puts
  *
