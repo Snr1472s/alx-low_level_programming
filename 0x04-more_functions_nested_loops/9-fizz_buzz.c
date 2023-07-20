@@ -1,31 +1,30 @@
 #include <stdio.h>
 /**
- * main - prints 1 to 100 and fizzbuss
+ * main - print 1 to 100 and fizzbuzz
  *
- * Return: (0)
+ * Return: 0
  */
-
 int main(void)
 {
-	int w;
+	int i;
 
-	for (w = 1; w <= 100; w++)
+	for (i = 1; i < 100; i++)
 	{
-		if ((w % 3) == 0 && (w % 5) == 0)
+		if ((i % 3) == 0 && (i % 5) == 0)
 		{
 			printf("FizzBuzz ");
 		}
-		else if (w % 3 == 0)
+		else if (i % 3 == 0)
 		{
 			printf("Fizz ");
 		}
-		else if (w % 5 == 0)
+		else if (i % 5 == 0)
 		{
 			printf("Buzz ");
 		}
 		else
 		{
-			printf("%d ", w);
+			printf("%d ", i);
 		}
 
 	}
