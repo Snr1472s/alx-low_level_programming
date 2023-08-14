@@ -6,7 +6,6 @@
 /**
  * file -  0-object_like_macro.h
  * Desc: header_file
- * @size: bytes parameter
  */
 
 #define SIZE 1024
