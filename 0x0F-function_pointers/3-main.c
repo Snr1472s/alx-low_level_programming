@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	char op;
+	char *op; /* operator */
 	int num1, num2; /* number inputs */
 
 	if (argc != 4) /* if argument count is wrong */
