@@ -4,7 +4,7 @@
  * listint_len - returns number of elements in a linked listint_t list
  *
  * @h: parameter
- * Return: (0)
+ * Return: elem
  */
 
 size_t listint_len(const listint_t *h)
