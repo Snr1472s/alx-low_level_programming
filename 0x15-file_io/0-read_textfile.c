@@ -5,14 +5,14 @@
  *
  * @filename: parameter
  * @letters: parameter
- * Return: actual number of letters it could read and print
+ * Return: numbers of letters printed. It fails, returns 0
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	ssize_t nrd, nwr;
-	char *buf;
 	int fd;
+	ssize_t nwr, nrd;
+	char *buf;
 
 	if (!filename)
 		return (0);
