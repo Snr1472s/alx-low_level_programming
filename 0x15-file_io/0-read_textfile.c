@@ -5,7 +5,7 @@
  *
  * @filename: parameter
  * @letters: parameter
- * Return: numbers of letters printed. It fails, returns 0
+ * Return: (0)
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
